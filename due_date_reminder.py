@@ -26,7 +26,7 @@ MY_CLASSES = ["Big Data", "Analysis", "Finance", "Data Mining", "Business Intel"
 
 def main():
     """
-        Delivers formatted assignemnt due dates via SMS for the next week
+        Delivers formatted assignemnt due dates via SMS for the next week.
     """
     # Read in the data
     all_data = pd.read_excel(FILE)
